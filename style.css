@@ -1,0 +1,517 @@
+@charset "UTF-8";
+
+/* Define a codificação da folha de estilo
+ para Unicode UTF-8 */
+
+
+/* Estilo Website Responsivo. */
+
+
+/* Seletor Universal */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Corpo de página */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    background-color: #f1e2cd;
+    color: #2f2f2f;
+}
+
+
+/*Formatação de texto - */
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.p-f {
+    font-size: 15px;
+}
+
+strong {
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+em {
+    font-style: italic;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin: 0 0 0.85em 0;
+}
+
+h2 {
+    letter-spacing: 0.030rem;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2f2f2f;
+    margin: 0 0 0.75em 0;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: -0.025rem;
+}
+
+h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f2f2f;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+em {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-image: url(../img/bg1-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.header-curso {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff5f5;
+}
+
+.social ul li {
+    display: flex;
+    float: left;
+}
+
+.margim-top {
+    margin-top: 85px;
+}
+
+.social li a {
+    font-size: 35px;
+    color: #666464;
+    margin: 18px;
+}
+
+.social li a:hover {
+    color: #A65D6A;
+}
+
+.img-perfil {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.fakelogo {
+    margin-left: 150px;
+    width: 100%;
+}
+
+.introduc {
+    margin-top: 25px;
+}
+
+
+/* Barra de Navegação */
+
+.topnav {
+    overflow: hidden;
+    background-color: #BF9F93;
+}
+
+.menu-container {
+    text-align: center;
+    transition: 0.4s;
+}
+
+
+/*Menu Hamburguer*/
+
+.show-menu-btn,
+.hide-menu-btn {
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    color: #2f2f2f;
+    display: none;
+}
+
+.show-menu-btn {
+    float: right;
+    margin-right: 20px;
+}
+
+.show-menu-btn i {
+    line-height: 100px;
+}
+
+.menu-container a:hover {
+    color: #A65D6A;
+}
+
+.topnav i:hover {
+    color: #A65D6A;
+}
+
+.menu-container i:hover {
+    color: #A65D6A;
+}
+
+#chk {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+.topnav a {
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: #A65D6A;
+    ;
+}
+
+
+/* Primeira Coluna - Coluna à Esquerda */
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+
+/* Segunda Coluna - Coluna à Direita */
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    /* background-color: #F7F7F7; */
+    padding-left: 20px;
+}
+
+
+/* Imagem Falsa */
+
+.fakeimg {
+    margin-top: 18px;
+    margin-bottom: 28px;
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapa-site {
+    margin-left: 250px;
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+
+/* Adicione um efeito de cartão (card) para artigos. */
+
+.card {
+    background-color: #fff5f5;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.card a {
+    text-decoration: none;
+    color: #5e5c5c;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card a:hover {
+    color: #A65D6A;
+}
+
+.card-1 {
+    display: flex;
+    background-color: #fff5f5;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.card-3 {
+    background-color: #fff5f5;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/*Formatação de Imagens*/
+
+.img-710 {
+    max-width: 710px;
+}
+
+.img-tv {
+    width: 80%;
+}
+
+
+/*FORMULARIO CONTATO*/
+
+.form {
+    max-width: 100%;
+    /* background-color: #fff; */
+    text-align: c;
+}
+
+.box-form {
+    max-width: 100%;
+    margin-top: 20px;
+    /* background-color: #faeaea; */
+}
+
+fieldset {
+    font-size: 20px;
+    padding: 2rem;
+    margin-left: 50px;
+    border: #666464;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form label,
+.form input,
+.form input,
+.form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font: inherit;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.form label {
+    color: #6d6a6a;
+    line-height: 1rem;
+}
+
+.form label,
+.form textarea {
+    font: inherit;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.form textarea {
+    min-height: 8rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    border-color: #09cd;
+    color: #555252;
+    box-shadow: 0.0.0.3px #39b8f3;
+}
+
+.form button {
+    display: flex;
+    float: left;
+    background-color: #be9789;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    padding: 1rem;
+    color: #fff;
+    font: inherit;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    background-color: #A65D6A;
+}
+
+
+/* Limpar a flutuação (float) após as colunas. */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Rodapé */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #fff5f5;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+
+
+/* Layout responsivo - quando a tela tem menos de 800 px de largura,
+   empilhe as duas colunas uma em cima da outra, em vez de uma ao lado da outra.
+*/
+
+@media screen and (max-width:800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .card-1 {
+        display: block;
+    }
+    .card-3 {
+        max-width: 100%;
+    }
+    .img-710 {
+        width: 100%;
+    }
+    .fakeimg {
+        width: 100%;
+    }
+    .img-tv {
+        width: 100%;
+    }
+    .rightcolumn {
+        max-width: 100%;
+    }
+    p {
+        font-size: 18px;
+    }
+    .topnav {
+        height: 65px;
+        background-color: #F1E2CD;
+    }
+    header {
+        display: block;
+        text-align: start;
+    }
+    .introduc {
+        height: 250px;
+    }
+    .header-curso {
+        display: block
+    }
+    .img-710 {
+        max-width: 100%;
+    }
+}
+
+
+/* Layout responsivo - quando a tela tem menos de 400 px de largura,
+   empilhe os links de navegação uns sobre os outros, em vez de próximos uns dos outros.
+*/
+
+@media screen and (max-width: 800px) {
+    .show-menu-btn,
+    .hide-menu-btn {
+        display: block;
+    }
+    .menu-container {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #333;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+    }
+    .menu-container a {
+        display: block;
+        padding: 20px;
+        color: floralwhite
+    }
+    .menu-container i {
+        color: floralwhite;
+    }
+    .hide-menu-btn {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+    #chk:checked~.menu-container {
+        right: 0;
+    }
+    .img-perfil {
+        max-width: 50%;
+        margin-left: -40px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .mapa-site {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+}
+
+
+/*Pag - Projetos*/
+
+.card video {
+    width: 100%;
+    background: rgb(95, 41, 41);
+    border-radius: 5%;
+}

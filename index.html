@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Graziela Morales - Web Site Pessoal - Responsivo</title>
+    <link rel="shortcut icon" href="img/favicon .ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2? family = Fonte + Código + Pro: wght @ 500 & display = swap " rel=" stylesheet ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family = Nunito + Sans: ital, wght @ 0,300; 0,600; 1,600; 1,700 &família = Aberto + Sans: wght @ 300; 400; 600 & display = swap " rel=" stylesheet ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Web Design Responsivo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="fakelogo">
+            <img class="img-perfil" src="img/eu2.jpg" alt="foto-perfil">
+        </div>
+        <div class="introduc">
+            <h1>Graziela B. Morales</h1>
+            <h2>Bem vindo(a)! <em>Esta é Minha página pessoal</em>. Aqui você vai conhecer um pouco sobre quem sou, minhas atividades atuais, meus hobbies e meus projetos.
+            </h2>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/graziela.morales/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/grazielamorales" target="_blank"><i class="fab fa-github-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/graziela-morales-722534ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="tel:5514998069335"><i class="fab fa-whatsapp-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="topnav">
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+        <ul class="menu-container">
+            <a href="#">Home</a>
+            <a href="curso.html">Curso</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="fatec.html">Fatec</a>
+            <a href="curriculum.html">Curriculum</a>
+            <a href="mapadosite.html">Mapa do Site</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Olá! Tudo bem?</h2>
+                <h5><em>Nasci no ano de 1976</em>, na cidade de Ipaussu, interior paulista. Atualmente moro em Jau/SP, casada, não tenho filhos. A quase vinte anos venho atuando na área de estética como Cabeleireira e Maquiadora. Com a chegada da pandemia
+                    da Covid-19, fui obrigada a interromper minhas atividades profissionais.</h5>
+                <h5> No inicio de 2021, descidi retomar meus estudos, estou cursando <em>FATEC-JAU</em>, primeiro semestre do curso de <em> SISTEMAS PARA
+                INTERNET.</em> Nas poucas horas vagas meus principais hobbies são: ler, ouvir música, assistir séries e fazer artesanatos. Ultimamente meu hoobie favorito tem sido estudar linguagens de programação.</h5>
+                <h5>Este Web Site é meu primeiro projeto da Faculdade. Pretendo atualizá-lo no decorrer do curso com os próximos projetos que serão desenvolvidos por mim. Voltar a estudar depois de tantos anos tem sido um grande desafio. Por isso estou me
+                    dedicando ao máximo pois desejo me tornar uma programadora de sucesso .</h5>
+                <h5>Para mais informações ou sugestões entre em contato comigo através das minhas redes sociais ou preencha o formulário logo abaixo.</h5><br>
+            </div>
+            <div class="form">
+                <form class="box-form" action="mailto:grazimorales@hotmail.com" method="POST">
+                    <fieldset>
+                        <h2>Deixe seu recado...</h2>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" required>
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" name="phone" id="phone" required>
+                    </fieldset>
+                    <fieldset id="user-message">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="message" rows="0" cols="0"></textarea>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h3>Cursando</h3>
+                <div>
+                    <img src="img/logotipo-fatec.png" alt="logo-fatec">
+                </div>
+            </div>
+            <div class="card">
+                <h3>Disciplinas</h3><br>
+                <div>
+                    <p>Designer</p>
+                    <img class="fakeimg" src="img/curso2.png" alt="foto">
+                </div>
+                <div>
+                    <p>Algotitmos e Lógica de Programação</p>
+                </div>
+                <div>
+                    <img class="fakeimg" src="img/fluxograma.png" alt="foto">
+                </div>
+                <div>
+                    <p>Projetos e Padrões de Sítios Internet (HTML5 / CSS3)</p>
+                    <img class="fakeimg" src="img/html5_css3.png" alt="foto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p class="p-f">&copy; Graziela B. Morales, 2021. Todos os direitos reservados.</p>
+    </div>
+
+</body>
+
+</html>
